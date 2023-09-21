@@ -1,0 +1,383 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Kalam:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playball&family=Poppins:wght@100;200;300;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button,a,li{
+    font-family:'Montserrat', sans-serif,"bree-serif";
+
+}
+body{
+    width:100%;
+    height:100%;
+}
+.section-1 {
+    width: 100%;
+    color: #ffffff;
+   
+}
+
+.Navbar {
+    padding:0.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07b8c5;
+    
+
+}
+label{
+    color:#f6f3f3;
+    font-weight:600;
+}
+
+.head-1{
+   
+    color:#4b2020;
+    
+    font-family:"playball";
+}
+
+
+.img-2{
+    width:8%;
+}
+.img-2:hover{
+    content:url("./imges/bur.png");
+    transition:all 19s ease-in 1s;
+
+   
+}
+.anchor{
+    color:#470b0b;
+    font-size:1rem;
+    font-weight:700;
+   text-decoration: none;
+
+}
+.Nav-links {
+    display: flex;
+   flex-direction: row;
+    gap:2.4rem;
+    list-style: none;
+  
+   
+}
+
+
+.hero-section {
+   
+    background-image:grey;
+    background-size: cover;
+    width:100%;
+   
+}
+.logo{
+    width:100%;
+}
+/* sec-3 */
+.sec-3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:0.4rem;
+    background-color: #e1e6f1;
+   
+}
+.sub-section-3{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #efae09;
+   
+}
+.about{
+    padding:0.6rem;
+    color: #fb4c07;
+    font-size:2.5rem;
+    font-weight:700;
+}
+.description{
+    font-size: medium;
+    text-align: center;
+    width:58%;
+    color:rgb(2, 41, 80);
+    padding-bottom:0.3rem;
+
+}
+.title{
+    color:rgb(114, 4, 61);
+}
+
+
+
+
+/* section-4 */
+.sec-5-cont{
+    background-color:rgb(150, 209, 219);
+    background-size:cover;
+    width:100%;
+   
+    
+}
+
+.card{
+    width:30%;
+    background-color: #f5c152;
+    border-radius:12px;
+
+}
+  
+
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-bg{
+    
+    background-color:rgba(0, 0, 128, 0.679);
+    padding:0.6rem;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   border-top-right-radius:9px;
+   border-top-left-radius: 9px;
+ 
+   
+}
+
+
+.image-2{
+    width:90%;
+}
+    
+
+.card-para{
+    color:white;
+    font:500 0.9rem sans-serif;
+    text-align: center;
+}
+.sub-card{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+   
+
+}
+
+.offer{
+    color:#f04e08;
+    font-weight:700;
+}
+
+.menu{
+    text-align:center;
+    color:#750c07;
+    padding:0.8rem;
+
+}
+
+
+
+
+
+/* sec-5*/
+.sec-6-a{
+    background-color: #c75151;
+    background-size: cover;
+    
+    
+} 
+.sec-6{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.heading{
+    color:white;
+    text-align: center;
+    padding:0.4rem;
+    font-size:2.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    
+}
+
+.side-2{
+    width:40%;
+}
+input{
+    display: block;
+    color:grey;
+    font:normal 0.9rem Montserrat;
+    padding:0.5rem;
+    border-color: #10afad;
+}
+.btn{
+    background-color:rgb(245, 217, 7);
+    color:rgb(23, 14, 206);
+    font:700 0.8rem Montserrat;
+    outline:none;
+    border:none;
+    padding:0.3rem;
+}
+
+.format{
+    text-align:center;
+    padding:0.9rem;
+}
+
+/* sec-6 */
+
+.footer{
+    background-color: black;
+    width:100%;
+    background-size: cover;
+    padding:0.4rem;
+  
+}
+.para-2{
+    color:rgb(221, 217, 217);
+    font:normal 0.8rem Montserrat;
+    text-align: center;
+    padding:0.4rem;
+}  
+.para-3{
+  text-align: center;
+  font:bold 1rem Montserrat;
+  color:white;
+  padding:0.4rem;
+
+}
+.img-club{
+    align-items: center;
+   justify-content: center;
+    display:flex;
+    gap:0.4rem;
+    padding:0.5rem;
+}
+.img-club img{
+    width:6%;
+}
+.add{
+    background-color: #10afad;
+   
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#090909;
+    font-weight:600;
+    padding:0.6rem;
+    
+}
+.js{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   /* padding:0.4rem; */
+}
+.remove{
+    
+    color: #43031c;
+    padding:0.6rem;
+    font-weight:700;
+}
+@media(max-width:720px){
+    .add{
+        width:50%;
+    }
+}
+@media(max-width:500px){
+    .add{
+        width:65%;
+    }
+}
+@media(max-width:721px){
+    .Nav-links{
+        position: absolute;
+        top:10vh;
+        right:0;
+        width:100%;
+        height:90vh;
+        background-color: #07b8c5;
+        display: flex;
+       justify-content:space-evenly;
+       align-items: center;
+       z-index:999999;
+       flex-direction: column;
+       transform:translateX(-100%);
+       transition:all 0.5s ease-in;
+    }
+    .nav-active{
+        transform:translateX(0);
+    }
+    .burger{
+        display:block;
+        cursor:pointer;
+    }
+    .burger div{
+        background-color: #e1e6f1;
+        height:2px;
+        width:40px;
+        margin-bottom:10px;
+    }
+    .img-2{
+        width:10%;
+    }
+    .about{
+        font-size:1.6rem;
+    }
+    .description{
+        width:85%;
+        font-size:0.8rem;
+    }
+    .title{
+        font-size: medium;
+    }
+    .menu{
+        font-size: medium;
+    }
+    .card-para{
+        font-size:small;
+    }
+    .card{
+        flex-wrap:wrap;
+        width:50%;
+    }
+    
+   
+ }
+ @media(max-width:900px){
+    .card{
+        flex-wrap:wrap;
+    }
+ }
+ @media(min-width:722px){
+    .burger{
+        display:none;
+    }
+ }
